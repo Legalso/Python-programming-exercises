@@ -17,3 +17,13 @@ for n in range(1, numero + 1):
     fatorial *= n
 
 print("O resultado de {0}! é: {1}".format(numero, fatorial))
+
+# # Solution:
+# def fact(x):
+#     if x == 0:
+#         return 1
+#     return x * fact(x - 1)
+
+
+# x = int(input())
+# print(fact(x))
